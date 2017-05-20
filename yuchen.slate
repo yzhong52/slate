@@ -1,0 +1,8 @@
+# Put this file under ~/.slate, e.g mv yuchen.slate ~/.slate
+
+# Push Bindings
+# NOTE: some of these may *not* work if you have not removed the expose/spaces/mission control bindings
+bind right:ctrl;shift push right bar-resize:screenSizeX/2
+bind left:ctrl;shift  push left  bar-resize:screenSizeX/2
+bind up:ctrl;shift    push up    bar-resize:screenSizeY/2
+bind down:ctrl;shift  push down  bar-resize:screenSizeY/2
