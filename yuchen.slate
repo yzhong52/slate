@@ -1,9 +1,9 @@
 # Push Bindings
 # NOTE: some of these may *not* work if you have not removed the expose/spaces/mission control bindings
-bind right:ctrl;shift push right bar-resize:screenSizeX/2
-bind left:ctrl;shift  push left  bar-resize:screenSizeX/2
-bind up:ctrl;shift    push up    bar-resize:screenSizeY/2
-bind down:ctrl;shift  push down  bar-resize:screenSizeY/2
+bind right:shift;cmd push right bar-resize:screenSizeX/2
+bind left:shift;cmd  push left  bar-resize:screenSizeX/2
+bind up:shift;cmd    push up    bar-resize:screenSizeY/2
+bind down:shift;cmd  push down  bar-resize:screenSizeY/2
 
 
 #
@@ -31,7 +31,7 @@ alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
 #   - =
 #   [ ]
 #
-bind -ctrl;cmd  ${topleft}
-bind [ctrl;cmd  ${bottomhalf}
-bind =:ctrl;cmd  ${topright}
-bind ]ctrl;cmd  ${bottomright}
+bind -:shift;cmd  ${topleft}
+bind [:shift;cmd  ${bottomleft}
+bind =:shift;cmd  ${topright}
+bind ]:shift;cmd  ${bottomright}
